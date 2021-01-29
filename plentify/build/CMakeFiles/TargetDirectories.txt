@@ -1,7 +1,0 @@
-C:/DSA/assignments/plentify/build/CMakeFiles/INSTALL.dir
-C:/DSA/assignments/plentify/build/CMakeFiles/ALL_BUILD.dir
-C:/DSA/assignments/plentify/build/CMakeFiles/ZERO_CHECK.dir
-C:/DSA/assignments/plentify/build/src/CMakeFiles/INSTALL.dir
-C:/DSA/assignments/plentify/build/src/abremang/CMakeFiles/abremang.dir
-C:/DSA/assignments/plentify/build/src/abremang/CMakeFiles/INSTALL.dir
-C:/DSA/assignments/plentify/build/src/abremang/CMakeFiles/ALL_BUILD.dir
