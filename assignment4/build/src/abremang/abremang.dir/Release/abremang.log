@@ -1,0 +1,24 @@
+﻿Build started 3/23/2020 2:35:44 PM.
+     1>Project "C:\DSA\assignments\assignment4\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "abremang.dir\Release\abremang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Release\\" /Fd"abremang.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment4Application.cpp
+         assignment4Application.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DSA\assignments\assignment4\build\Release\abremang.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /NODEFAULTLIB:"libc;libcmt.lib;libcmtd.lib" /MANIFEST /ManifestFile:"abremang.dir\Release\abremang.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/DSA/assignments/assignment4/build/Release/abremang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DSA/assignments/assignment4/build/Release/abremang.lib" /MACHINE:X86 abremang.dir\Release\assignment4Application.obj
+         abremang.dir\Release\assignment4Implementation.obj
+         abremang.dir\Release\binaryTreeImplementation.obj  /machine:X86
+         abremang.vcxproj -> C:\DSA\assignments\assignment4\build\Release\abremang.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\DSA\assignments\assignment4\build\Release\abremang.exe;#1" /manifest abremang.dir\Release\abremang.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "abremang.dir\Release\abremang.unsuccessfulbuild".
+         Touching "abremang.dir\Release\abremang.lastbuildstate".
+     1>Done Building Project "C:\DSA\assignments\assignment4\build\src\abremang\abremang.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.93

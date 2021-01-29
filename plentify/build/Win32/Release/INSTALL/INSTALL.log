@@ -1,0 +1,25 @@
+﻿Build started 5/13/2020 8:24:59 AM.
+     1>Project "C:\DSA\assignments\plentify\build\INSTALL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\INSTALL\INSTALL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Release"
+         -- Up-to-date: C:/DSA/assignments/plentify/bin/abremang.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\INSTALL\INSTALL.unsuccessfulbuild".
+         Touching "Win32\Release\INSTALL\INSTALL.lastbuildstate".
+     1>Done Building Project "C:\DSA\assignments\plentify\build\INSTALL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.75

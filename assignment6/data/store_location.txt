@@ -1,0 +1,26 @@
+int store_location(struct ant_location_type location[], float t, int x, int y, int num_of_elements_array)
+{
+	int id_number;
+	int a;
+
+	id_number = 0;
+
+	for (a = 0; a <= num_of_elements_array; a++)
+	{ 
+		if(((location[a].x_sorted) == x) && (location[a].y_sorted == y) ) //compare location for any similarities
+		{
+			if ( t < (location[a].t_sorted) ) //compares the time and ensures the first time is always maintained
+			{
+				location[a].t_sorted = t;
+			}
+			id_number = -1;
+			break; // breaks out of loop anytime a match is found
+		}
+		
+		id_number = num_of_elements_array+1;//increment unique identifier
+	}
+
+	return(id_number);
+
+
+}

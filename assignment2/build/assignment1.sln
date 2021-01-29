@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abremang", "src\abremang\abremang.vcxproj", "{10708319-5564-34BD-96A6-66A65CA5AFA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.Debug|Win32.Build.0 = Debug|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.Release|Win32.ActiveCfg = Release|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.Release|Win32.Build.0 = Release|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{10708319-5564-34BD-96A6-66A65CA5AFA9}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61C4C1B4-9605-37E6-AEBE-5B4AD9405EE7}
+	EndGlobalSection
+EndGlobal

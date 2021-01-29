@@ -1,0 +1,6 @@
+../data/words.txt
+../data/textfile3.txt
+../data/textfile4.txt
+../data/textfile5.txt
+../data/textfile6.txt
+../data/textfile7.txt

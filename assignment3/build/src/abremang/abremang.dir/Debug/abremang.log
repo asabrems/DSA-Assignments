@@ -1,0 +1,19 @@
+﻿Build started 2/17/2020 2:36:13 PM.
+     1>Project "C:\DSA\assignments\assignment3\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "abremang.dir\Debug\abremang.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Debug\\" /Fd"abremang.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment3Application.cpp ..\..\..\src\abremang\assignment3Implementation.cpp
+         assignment3Application.cpp
+     1>..\..\..\src\abremang\assignment3Application.cpp(216): error C2371: 'increment' : redefinition; different basic types
+                 ..\..\..\src\abremang\assignment3Application.cpp(214) : see declaration of 'increment'
+         assignment3Implementation.cpp
+     1>..\..\..\src\abremang\assignment3Implementation.cpp(45): fatal error C1083: Cannot open include file: 'assignment2.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\DSA\assignments\assignment3\build\src\abremang\abremang.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.60

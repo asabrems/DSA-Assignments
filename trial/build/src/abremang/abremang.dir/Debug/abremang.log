@@ -1,0 +1,43 @@
+﻿Build started 4/15/2020 3:46:05 PM.
+     1>Project "C:\DSA\assignments\trial\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "abremang.dir\Debug\abremang.unsuccessfulbuild".
+       CustomBuild:
+         Building Custom Rule C:/DSA/assignments/trial/src/abremang/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Debug\\" /Fd"abremang.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment6Application.cpp ..\..\..\src\abremang\assignment6Implementation.cpp ..\..\..\src\abremang\graphImplementation.cpp
+         assignment6Application.cpp
+     1>..\..\..\src\abremang\assignment6Application.cpp(178): warning C4101: 'message' : unreferenced local variable
+         assignment6Implementation.cpp
+     1>..\..\..\src\abremang\assignment6Implementation.cpp(112): warning C4101: 'counter1' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment6Implementation.cpp(113): warning C4101: 'counter' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment6Implementation.cpp(112): warning C4101: 'start' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment6Implementation.cpp(112): warning C4101: 'k' : unreferenced local variable
+         graphImplementation.cpp
+     1>..\..\..\src\abremang\graphImplementation.cpp(346): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\abremang\graphImplementation.cpp(347): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\abremang\graphImplementation.cpp(358): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\abremang\graphImplementation.cpp(359): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\abremang\graphImplementation.cpp(339): warning C4101: 'temp_value' : unreferenced local variable
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"abremang.dir\Debug\abremang.exe.embed.manifest.res" abremang.dir\Debug\abremang_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DSA\assignments\trial\build\Debug\abremang.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /NODEFAULTLIB:"libc;libcmt.lib;libcmtd.lib" /MANIFEST /ManifestFile:"abremang.dir\Debug\abremang.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/DSA/assignments/trial/build/Debug/abremang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DSA/assignments/trial/build/Debug/abremang.lib" /MACHINE:X86 abremang.dir\Debug\abremang.exe.embed.manifest.res
+         abremang.dir\Debug\assignment6Application.obj
+         abremang.dir\Debug\assignment6Implementation.obj
+         abremang.dir\Debug\graphImplementation.obj  /machine:X86
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"abremang.dir\Debug\abremang.exe.embed.manifest" /manifest abremang.dir\Debug\abremang.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         abremang.vcxproj -> C:\DSA\assignments\trial\build\Debug\abremang.exe
+       FinalizeBuildStatus:
+         Deleting file "abremang.dir\Debug\abremang.unsuccessfulbuild".
+         Touching "abremang.dir\Debug\abremang.lastbuildstate".
+     1>Done Building Project "C:\DSA\assignments\trial\build\src\abremang\abremang.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.05

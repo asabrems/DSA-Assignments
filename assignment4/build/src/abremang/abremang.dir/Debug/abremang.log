@@ -1,0 +1,22 @@
+﻿Build started 3/9/2020 1:06:49 PM.
+     1>Project "C:\DSA\assignments\assignment4\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "abremang.dir\Debug\abremang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/DSA/assignments/assignment4/src/abremang/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Debug\\" /Fd"abremang.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment4Application.cpp ..\..\..\src\abremang\assignment4Implementation.cpp ..\..\..\src\abremang\binaryTreeImplementation.cpp ..\..\..\src\abremang\textApplication.cpp
+         assignment4Application.cpp
+         assignment4Implementation.cpp
+     1>..\..\..\src\abremang\assignment4Implementation.cpp(45): fatal error C1083: Cannot open include file: 'assignment1.h': No such file or directory
+         binaryTreeImplementation.cpp
+         textApplication.cpp
+     1>..\..\..\src\abremang\textApplication.cpp(19): error C2065: 'MAX_STRING_LENGTH' : undeclared identifier
+     1>..\..\..\src\abremang\textApplication.cpp(20): error C2065: 'MAX_STRING_LENGTH' : undeclared identifier
+     1>..\..\..\src\abremang\textApplication.cpp(21): error C2065: 'MAX_STRING_LENGTH' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\DSA\assignments\assignment4\build\src\abremang\abremang.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.38

@@ -1,0 +1,16 @@
+sunday
+monday
+tuesday
+wed
+thurs
+fri
+sat
+sunday
+sunday
+monday
+tuesday
+wed
+thurs
+fri
+sat
+sunday

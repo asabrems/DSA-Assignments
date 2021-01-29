@@ -1,0 +1,61 @@
+﻿Build started 5/10/2020 1:24:23 AM.
+     1>Project "C:\DSA\assignments\assignment3\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "abremang.dir\Release\abremang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Release\\" /Fd"abremang.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment3Application.cpp
+         assignment3Application.cpp
+     1>..\..\..\src\abremang\assignment3Application.cpp(266): warning C4101: 'w' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'arrival' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(272): warning C4101: 'car' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(240): warning C4101: 'lengthOfQueue' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(238): warning C4101: 'lambda' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(235): warning C4101: 'numOfCars' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(271): warning C4101: 'next_car_element' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(240): warning C4101: 'average_length' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(237): warning C4101: 'arrival_time' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(237): warning C4101: 'departure_time' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(242): warning C4101: 'median' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(241): warning C4101: 'wait_time' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'amber' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'departure' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(268): warning C4101: 'list' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(243): warning C4101: 'amber_light' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(241): warning C4101: 'avergeWaitTime' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(240): warning C4101: 'MaxLength' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(240): warning C4101: 'queue_length' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(270): warning C4101: 'car_element' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(243): warning C4101: 'light' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'runtime' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(249): warning C4101: 'ligthState' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(246): warning C4101: 'maxvalue' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(243): warning C4101: 'green_light' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(243): warning C4101: 'red_light' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(236): warning C4101: 'cars' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'red' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'increment' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(269): warning C4101: 'e1' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(248): warning C4101: 'message' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(241): warning C4101: 'maxWaitTime' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(234): warning C4101: 'green' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(244): warning C4101: 'simulation_time' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(239): warning C4101: 'totalNumOfCars' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(267): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\abremang\assignment3Application.cpp(236): warning C4101: 'dequeued' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DSA\assignments\assignment3\build\Release\abremang.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /NODEFAULTLIB:"libc;libcmt.lib;libcmtd.lib" /MANIFEST /ManifestFile:"abremang.dir\Release\abremang.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/DSA/assignments/assignment3/build/Release/abremang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DSA/assignments/assignment3/build/Release/abremang.lib" /MACHINE:X86 abremang.dir\Release\assignment3Application.obj
+         abremang.dir\Release\assignment3Implementation.obj
+         abremang.dir\Release\linkedListImplementation.obj  /machine:X86
+         abremang.vcxproj -> C:\DSA\assignments\assignment3\build\Release\abremang.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\DSA\assignments\assignment3\build\Release\abremang.exe;#1" /manifest abremang.dir\Release\abremang.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "abremang.dir\Release\abremang.unsuccessfulbuild".
+         Touching "abremang.dir\Release\abremang.lastbuildstate".
+     1>Done Building Project "C:\DSA\assignments\assignment3\build\src\abremang\abremang.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59

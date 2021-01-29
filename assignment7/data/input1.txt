@@ -1,0 +1,54 @@
+6
+1
+Mrs. Esther Kufuor, #1 Accra Street.
+OptiPizza, #1 Mozzarella Road.
+0  3 
+14 0
+2
+Mr. Kwizera, #1 Isagano Street.
+Mr. Bremang, #2 Maccarthy Street.
+OptiPizza, #1 Mozzarella Road.
+0 0 0
+0 0 0
+0 0 0
+1
+Mrs. Esther Kufuor, #1 Kenya Street.
+OptiPizza, #1 Mozzarella Road.
+0 14 
+3 0
+9
+Mr. Hazel, #1 UK Street.
+Mr. Elijah, #2 Isagano Street.
+Ms. Mayer, #3 Alt Street.
+Ms. Bremang, #4 Asofa Drive.
+Ms. Cube, #5 Rubicks Street.
+Mr. Lake, #6 SouthTown Street.
+Prof. Vernon, #7 DSA Street
+Mr. Olive, #8 Remera Road
+Ms. Pina, #9 Nariobi Street
+OptiPizza, #1 Mozzarella Road.
+0 1 1 1 1 1 1 1 1 1
+1 0 1 1 1 16 1 1 17 1
+1 1 0 5 1 1 1 1 1 1
+1 1 1 0 1 1 1 8 1 6
+11 1 1 1 0 1 1 1 1 1
+1 8 1 1 1 0 1 1 1 1
+1 1 1 1 1 1 0 1 1 9
+1 1 1 1 1 1 1 0 1 1
+1 1 5 1 1 1 1 9 0 14
+1 1 1 1 1 1 1 1 1 0
+3
+Mr. Madziro, #1 Glasses Street.
+Mr. Rukundo, #2 Macbook Street.
+Ms. Madziro, #3 Trousers Street.
+OptiPizza, #1 Mozzarella Road.
+0 3 3 3
+3 0 3 3
+3 3 0 3
+3 3 3 0
+0
+OptiPizza, #1 Mozzarella Road.
+0
+
+
+   

@@ -1,0 +1,23 @@
+﻿Build started 4/5/2020 9:24:31 PM.
+     1>Project "C:\DSA\assignments\assignment6\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "abremang.dir\Debug\abremang.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Debug\\" /Fd"abremang.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\graphImplementation.cpp
+         graphImplementation.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"abremang.dir\Debug\abremang.exe.embed.manifest.res" abremang.dir\Debug\abremang_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DSA\assignments\assignment6\build\Debug\abremang.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /NODEFAULTLIB:"libc;libcmt.lib;libcmtd.lib" /MANIFEST /ManifestFile:"abremang.dir\Debug\abremang.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/DSA/assignments/assignment6/build/Debug/abremang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/DSA/assignments/assignment6/build/Debug/abremang.lib" /MACHINE:X86 abremang.dir\Debug\abremang.exe.embed.manifest.res
+         abremang.dir\Debug\assignment6Application.obj
+         abremang.dir\Debug\assignment6Implementation.obj
+         abremang.dir\Debug\graphImplementation.obj  /machine:X86
+     1>graphImplementation.obj : error LNK2005: "void __cdecl prompt_and_exit(int)" (?prompt_and_exit@@YAXH@Z) already defined in assignment6Implementation.obj
+     1>C:\DSA\assignments\assignment6\build\Debug\abremang.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\DSA\assignments\assignment6\build\src\abremang\abremang.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.16

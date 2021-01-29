@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{D1C8E1BD-363F-3E50-AE55-3890E021048E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA} = {27F58599-1A16-3B44-AF37-2EB31F452AEA}
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1} = {7C5C2647-4FF4-3168-BE78-B8267B2301B1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E} = {D1C8E1BD-363F-3E50-AE55-3890E021048E}
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA} = {27F58599-1A16-3B44-AF37-2EB31F452AEA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{27F58599-1A16-3B44-AF37-2EB31F452AEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abremang", "src\abremang\abremang.vcxproj", "{7C5C2647-4FF4-3168-BE78-B8267B2301B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA} = {27F58599-1A16-3B44-AF37-2EB31F452AEA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.Debug|Win32.Build.0 = Debug|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.Release|Win32.ActiveCfg = Release|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.Release|Win32.Build.0 = Release|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{D1C8E1BD-363F-3E50-AE55-3890E021048E}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}.Release|Win32.ActiveCfg = Release|Win32
+		{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}.Release|Win32.Build.0 = Release|Win32
+		{F344E5A5-8ACA-39E7-B267-0CDB51A1DB03}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.Debug|Win32.Build.0 = Debug|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.Release|Win32.ActiveCfg = Release|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.Release|Win32.Build.0 = Release|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{27F58599-1A16-3B44-AF37-2EB31F452AEA}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.Debug|Win32.Build.0 = Debug|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.Release|Win32.ActiveCfg = Release|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.Release|Win32.Build.0 = Release|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{7C5C2647-4FF4-3168-BE78-B8267B2301B1}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4218818-4C81-3C71-A25F-53A3A4F7C3ED}
+	EndGlobalSection
+EndGlobal

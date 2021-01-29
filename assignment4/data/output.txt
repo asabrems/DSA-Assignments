@@ -1,0 +1,38 @@
+abremang
+../data/textfile3.txt
+ERNEST DON'T get closer to the fire!!!
+Maximum number of probes: 3
+Average number of probes: 2.2
+closer         1 (1) 
+fire           1 (2) 
+get            1 (0) 
+the            1 (2) 
+to             1 (1) 
+--------------------
+../data/textfile4.txt
+MI MATHER IA HEIRE TODAI
+HERE I AM OKAY
+Maximum number of probes: 3
+Average number of probes: 2.0
+am             1 (1) 
+here           1 (0) 
+i              1 (1) 
+okay           1 (2) 
+--------------------
+../data/textfile5.txt
+!#$%%^&* !&()^^())___
+@##%%%^
+Maximum number of probes: 1
+Average number of probes: 1.0
+               3 (0) 
+--------------------
+../data/textfile6.txt
+Maximum number of probes: 0
+Average number of probes: 0.0
+--------------------
+../data/textfile7.txt
+a a a H B N O
+Maximum number of probes: 1
+Average number of probes: 1.0
+a              3 (0) 
+--------------------

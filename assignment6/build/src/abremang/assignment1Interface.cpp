@@ -1,0 +1,1 @@
+int store_location(float , int x, int y);

@@ -1,0 +1,95 @@
+﻿Build started 5/12/2020 12:39:45 AM.
+     1>Project "C:\DSA\assignments\plentify\build\src\abremang\abremang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "abremang.dir\Debug\abremang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/DSA/assignments/plentify/src/abremang/CMakeLists.txt
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"abremang.dir\Debug\\" /Fd"abremang.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\abremang\assignment1Application.cpp ..\..\..\src\abremang\assignment1Implementation.cpp
+         assignment1Application.cpp
+     1>..\..\..\src\abremang\assignment1Application.cpp(195): error C3861: 'characterNmorseCodePair': identifier not found
+     1>..\..\..\src\abremang\assignment1Application.cpp(204): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(206): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(208): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(210): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(212): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(214): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(216): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(218): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(220): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(222): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(224): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(226): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(228): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(230): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(232): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(234): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(236): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(238): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(240): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(242): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(244): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(246): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(248): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(250): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(252): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(254): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(256): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(258): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(260): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(262): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(264): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(266): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(268): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(270): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(273): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(275): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(277): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(279): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>..\..\..\src\abremang\assignment1Application.cpp(281): error C2440: '=' : cannot convert from 'char' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+         assignment1Implementation.cpp
+         Generating Code...
+     1>Done Building Project "C:\DSA\assignments\plentify\build\src\abremang\abremang.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18

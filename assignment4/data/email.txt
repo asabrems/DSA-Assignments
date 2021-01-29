@@ -1,0 +1,39 @@
+Dear Prof Vernon, 
+
+Please my name is Asantewaa Bremang, I am taking your course  DSA. I need a little clarification on the display of the textfile in the output file right before the maximum number of probes. So my concern is that when we are given a textfile with only non-alphanumeric characters, for example, "!!!\n !!!\n !!!\n". Should the output file be A or B:
+
+(A)
+abremang
+../data/textfile1.txt
+!!!
+!!!
+!!!
+Maximum number of probes: 0
+Average number of probes: 0.0
+--------------------
+
+(B)
+abremang
+../data/textfile1.txt
+Maximum number of probes: 0
+Average number of probes: 0.0
+-------------------- 
+
+Also, if I have a textdata file with the sentence "Ernest don't get closer to the fire!!!", should the output be
+
+../data/textfile1.txt
+Ernest don't get closer to the fire!!!
+Maximum number of probes: 
+--------------------
+
+ or
+abremang
+../data/textfile1.txt
+Ernest DONT get closer to the fire
+Maximum number of probes: 0
+-------------------- 
+
+Thank you and I do hope to hear from you in your earliest convenience.
+ 
+Best regards, 
+Asantewaa Bremang 

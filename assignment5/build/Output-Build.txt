@@ -1,0 +1,34 @@
+﻿1>------ Build started: Project: ZERO_CHECK, Configuration: Release Win32 ------
+2>------ Build started: Project: abremang, Configuration: Release Win32 ------
+2>  assignment5Application.cpp
+2>..\..\..\src\abremang\assignment5Application.cpp(191): warning C4101: 'goal' : unreferenced local variable
+2>..\..\..\src\abremang\assignment5Application.cpp(190): warning C4101: 'robot' : unreferenced local variable
+2>c:\dsa\assignments\assignment5\src\abremang\assignment5application.cpp(268): warning C4700: uninitialized local variable 'goal_y' used
+2>c:\dsa\assignments\assignment5\src\abremang\assignment5application.cpp(268): warning C4700: uninitialized local variable 'goal_x' used
+2>c:\dsa\assignments\assignment5\src\abremang\assignment5application.cpp(268): warning C4700: uninitialized local variable 'robot_y' used
+2>c:\dsa\assignments\assignment5\src\abremang\assignment5application.cpp(268): warning C4700: uninitialized local variable 'robot_x' used
+2>  abremang.vcxproj -> C:\DSA\assignments\assignment5\build\Release\abremang.exe
+3>------ Build started: Project: ALL_BUILD, Configuration: Release Win32 ------
+4>------ Build started: Project: INSTALL, Configuration: Release Win32 ------
+4>  -- Install configuration: "Release"
+4>  -- Installing: C:/DSA/assignments/assignment5/bin/abremang.exe
+4>  CMake Error at src/abremang/cmake_install.cmake:39 (file):
+4>    file INSTALL cannot copy file
+4>    "C:/DSA/assignments/assignment5/build/Release/abremang.exe" to
+4>    "C:/DSA/assignments/assignment5/bin/abremang.exe": Permission denied.
+4>  Call Stack (most recent call first):
+4>    src/cmake_install.cmake:37 (include)
+4>    cmake_install.cmake:37 (include)
+4>  
+4>  
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "setlocal
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :cmEnd
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :cmErrorLevel
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: exit /b %1
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :cmDone
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+========== Build: 3 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

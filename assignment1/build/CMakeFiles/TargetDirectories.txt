@@ -1,0 +1,7 @@
+C:/DSA/assignments/assignment1/build/CMakeFiles/INSTALL.dir
+C:/DSA/assignments/assignment1/build/CMakeFiles/ALL_BUILD.dir
+C:/DSA/assignments/assignment1/build/CMakeFiles/ZERO_CHECK.dir
+C:/DSA/assignments/assignment1/build/src/CMakeFiles/INSTALL.dir
+C:/DSA/assignments/assignment1/build/src/abremang/CMakeFiles/abremang.dir
+C:/DSA/assignments/assignment1/build/src/abremang/CMakeFiles/INSTALL.dir
+C:/DSA/assignments/assignment1/build/src/abremang/CMakeFiles/ALL_BUILD.dir
